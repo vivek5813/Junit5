@@ -4,7 +4,9 @@
     <list default="true" id="523a597d-bff3-47c8-a219-0fa205d602bb" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/vivek/common/OddEven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vivek/common/StringUtils.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/com/test/common/OddEvenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/test/common/StringUtilTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
@@ -42,7 +44,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../intellij_projects/spring-security-jpa" />
   </component>
-  <component name="RunManager" selected="JUnit.OddEvenTest">
+  <component name="RunManager" selected="JUnit.StringUtilTest">
     <configuration name="OddEvenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit5" />
       <extension name="coverage">
@@ -74,8 +76,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.common" />
+      <option name="MAIN_CLASS_NAME" value="com.test.common.StringUtilTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringUtilTest" />
         <item itemvalue="JUnit.OddEvenTest" />
         <item itemvalue="JUnit.OddEvenTest.givenOddNumber_whenIsEvenIsCalled_thenFalseIsReturned" />
       </list>
