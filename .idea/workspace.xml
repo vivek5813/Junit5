@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="523a597d-bff3-47c8-a219-0fa205d602bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vivek/common/OddEven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vivek/common/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/test/common/OddEvenTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/test/common/StringUtilTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUnit5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit5.iml" afterDir="false" />
-    </list>
+    <list default="true" id="523a597d-bff3-47c8-a219-0fa205d602bb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
