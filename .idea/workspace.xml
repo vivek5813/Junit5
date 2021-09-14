@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="523a597d-bff3-47c8-a219-0fa205d602bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test/com/test/common/StringUtilsTest2.java" afterDir="false" />
+    <list default="true" id="523a597d-bff3-47c8-a219-0fa205d602bb" name="Changes" comment="Assertion not null">
+      <change afterPath="$PROJECT_DIR$/test/com/test/common/AssertArrayEqualsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/test/common/AssertIterableEqualsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/test/common/AssertTrueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/test/common/StringUtilsTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/test/common/StringUtilsTest4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +41,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../intellij_projects/spring-security-jpa" />
   </component>
-  <component name="RunManager" selected="JUnit.StringUtilsTest2">
-    <configuration name="OddEvenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AssertIterableEqualsDemo">
+    <configuration name="AssertArrayEqualsDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit5" />
       <extension name="coverage">
         <pattern>
@@ -47,13 +51,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.test.common" />
-      <option name="MAIN_CLASS_NAME" value="com.test.common.OddEvenTest" />
+      <option name="MAIN_CLASS_NAME" value="com.test.common.AssertArrayEqualsDemo" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OddEvenTest.givenOddNumber_whenIsEvenIsCalled_thenFalseIsReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AssertIterableEqualsDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit5" />
       <extension name="coverage">
         <pattern>
@@ -62,29 +66,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.test.common" />
-      <option name="MAIN_CLASS_NAME" value="com.test.common.OddEvenTest" />
-      <option name="METHOD_NAME" value="givenOddNumber_whenIsEvenIsCalled_thenFalseIsReturned" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Junit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.common.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test.common" />
-      <option name="MAIN_CLASS_NAME" value="com.test.common.StringUtilTest" />
+      <option name="MAIN_CLASS_NAME" value="com.test.common.AssertIterableEqualsDemo" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringUtilsTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AssertTrueDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit5" />
       <extension name="coverage">
         <pattern>
@@ -93,7 +81,37 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.test.common" />
-      <option name="MAIN_CLASS_NAME" value="com.test.common.StringUtilsTest2" />
+      <option name="MAIN_CLASS_NAME" value="com.test.common.AssertTrueDemo" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringUtilsTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.common" />
+      <option name="MAIN_CLASS_NAME" value="com.test.common.StringUtilsTest3" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringUtilsTest4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.common" />
+      <option name="MAIN_CLASS_NAME" value="com.test.common.StringUtilsTest4" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,10 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringUtilsTest2" />
-        <item itemvalue="JUnit.StringUtilTest" />
-        <item itemvalue="JUnit.OddEvenTest" />
-        <item itemvalue="JUnit.OddEvenTest.givenOddNumber_whenIsEvenIsCalled_thenFalseIsReturned" />
+        <item itemvalue="JUnit.AssertIterableEqualsDemo" />
+        <item itemvalue="JUnit.AssertArrayEqualsDemo" />
+        <item itemvalue="JUnit.AssertTrueDemo" />
+        <item itemvalue="JUnit.StringUtilsTest4" />
+        <item itemvalue="JUnit.StringUtilsTest3" />
       </list>
     </recent_temporary>
   </component>
@@ -117,6 +136,14 @@
       <option name="presentableId" value="Default" />
       <updated>1631555859518</updated>
     </task>
+    <task id="LOCAL-00001" summary="Assertion not null">
+      <created>1631596283907</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631596283907</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,5 +157,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Assertion not null" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assertion not null" />
   </component>
 </project>
