@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="523a597d-bff3-47c8-a219-0fa205d602bb" name="Changes" comment="" />
+    <list default="true" id="523a597d-bff3-47c8-a219-0fa205d602bb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/test/com/test/common/StringUtilsTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +37,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../intellij_projects/spring-security-jpa" />
   </component>
-  <component name="RunManager" selected="JUnit.StringUtilTest">
+  <component name="RunManager" selected="JUnit.StringUtilsTest2">
     <configuration name="OddEvenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit5" />
       <extension name="coverage">
@@ -81,8 +84,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringUtilsTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.common" />
+      <option name="MAIN_CLASS_NAME" value="com.test.common.StringUtilsTest2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringUtilsTest2" />
         <item itemvalue="JUnit.StringUtilTest" />
         <item itemvalue="JUnit.OddEvenTest" />
         <item itemvalue="JUnit.OddEvenTest.givenOddNumber_whenIsEvenIsCalled_thenFalseIsReturned" />
@@ -110,5 +129,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
