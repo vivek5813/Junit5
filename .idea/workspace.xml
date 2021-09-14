@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="523a597d-bff3-47c8-a219-0fa205d602bb" name="Changes" comment="Assertion not null">
-      <change afterPath="$PROJECT_DIR$/test/com/test/common/AssertArrayEqualsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/test/common/AssertIterableEqualsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/test/common/AssertTrueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/test/common/StringUtilsTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/test/common/StringUtilsTest4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/test/common/AsserThrowDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/test/common/AssertTimeoutDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit5.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +39,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../intellij_projects/spring-security-jpa" />
   </component>
-  <component name="RunManager" selected="JUnit.AssertIterableEqualsDemo">
+  <component name="RunManager" selected="JUnit.AssertTimeoutDemo">
+    <configuration name="AsserThrowDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.common" />
+      <option name="MAIN_CLASS_NAME" value="com.test.common.AsserThrowDemo" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AssertArrayEqualsDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit5" />
       <extension name="coverage">
@@ -72,6 +85,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AssertTimeoutDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.common" />
+      <option name="MAIN_CLASS_NAME" value="com.test.common.AssertTimeoutDemo" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AssertTrueDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit5" />
       <extension name="coverage">
@@ -87,43 +115,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringUtilsTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Junit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.common.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test.common" />
-      <option name="MAIN_CLASS_NAME" value="com.test.common.StringUtilsTest3" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringUtilsTest4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Junit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.common.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test.common" />
-      <option name="MAIN_CLASS_NAME" value="com.test.common.StringUtilsTest4" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AssertTimeoutDemo" />
+        <item itemvalue="JUnit.AsserThrowDemo" />
         <item itemvalue="JUnit.AssertIterableEqualsDemo" />
         <item itemvalue="JUnit.AssertArrayEqualsDemo" />
         <item itemvalue="JUnit.AssertTrueDemo" />
-        <item itemvalue="JUnit.StringUtilsTest4" />
-        <item itemvalue="JUnit.StringUtilsTest3" />
       </list>
     </recent_temporary>
   </component>
