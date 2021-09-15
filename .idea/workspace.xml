@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="523a597d-bff3-47c8-a219-0fa205d602bb" name="Changes" comment="Assertion not null">
+      <change afterPath="$PROJECT_DIR$/test/com/test/assumtion/AssumeFalseDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/test/assumtion/AssumeTrueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/test/assumtion/AssumingThatDemo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/com/test/common/AsserThrowDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/test/common/AssertTimeoutDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/test/common/DisplayNameDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JUnit5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit5.iml" afterDir="false" />
     </list>
@@ -15,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -39,53 +43,66 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../intellij_projects/spring-security-jpa" />
   </component>
-  <component name="RunManager" selected="JUnit.AssertTimeoutDemo">
-    <configuration name="AsserThrowDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AssumingThatDemo">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vivek.common.Test" />
       <module name="Junit5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.common.*" />
+          <option name="PATTERN" value="com.vivek.common.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.test.common" />
-      <option name="MAIN_CLASS_NAME" value="com.test.common.AsserThrowDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssumeFalseDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.assumtion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.assumtion" />
+      <option name="MAIN_CLASS_NAME" value="com.test.assumtion.AssumeFalseDemo" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AssertArrayEqualsDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AssumeTrueDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.common.*" />
+          <option name="PATTERN" value="com.test.assumtion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.test.common" />
-      <option name="MAIN_CLASS_NAME" value="com.test.common.AssertArrayEqualsDemo" />
+      <option name="PACKAGE_NAME" value="com.test.assumtion" />
+      <option name="MAIN_CLASS_NAME" value="com.test.assumtion.AssumeTrueDemo" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AssertIterableEqualsDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AssumingThatDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.common.*" />
+          <option name="PATTERN" value="com.test.assumtion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.test.common" />
-      <option name="MAIN_CLASS_NAME" value="com.test.common.AssertIterableEqualsDemo" />
+      <option name="PACKAGE_NAME" value="com.test.assumtion" />
+      <option name="MAIN_CLASS_NAME" value="com.test.assumtion.AssumingThatDemo" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AssertTimeoutDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DisplayNameDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit5" />
       <extension name="coverage">
         <pattern>
@@ -94,22 +111,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.test.common" />
-      <option name="MAIN_CLASS_NAME" value="com.test.common.AssertTimeoutDemo" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AssertTrueDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Junit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.common.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test.common" />
-      <option name="MAIN_CLASS_NAME" value="com.test.common.AssertTrueDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.test.common.DisplayNameDemo" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AssertTimeoutDemo" />
-        <item itemvalue="JUnit.AsserThrowDemo" />
-        <item itemvalue="JUnit.AssertIterableEqualsDemo" />
-        <item itemvalue="JUnit.AssertArrayEqualsDemo" />
-        <item itemvalue="JUnit.AssertTrueDemo" />
+        <item itemvalue="JUnit.AssumingThatDemo" />
+        <item itemvalue="JUnit.AssumeFalseDemo" />
+        <item itemvalue="JUnit.AssumeTrueDemo" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="JUnit.DisplayNameDemo" />
       </list>
     </recent_temporary>
   </component>
