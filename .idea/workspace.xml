@@ -7,6 +7,8 @@
       <change afterPath="$PROJECT_DIR$/test/com/test/assumtion/AssumingThatDemo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/com/test/common/AsserThrowDemo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/com/test/common/DisplayNameDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/test/disableenabletests/DisabledIfSystemPropertyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/test/disableenabletests/DisabledMethodTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JUnit5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit5.iml" afterDir="false" />
     </list>
@@ -43,20 +45,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../intellij_projects/spring-security-jpa" />
   </component>
-  <component name="RunManager" selected="JUnit.AssumingThatDemo">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vivek.common.Test" />
-      <module name="Junit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vivek.common.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.DisabledIfSystemPropertyTest">
     <configuration name="AssumeFalseDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit5" />
       <extension name="coverage">
@@ -102,16 +91,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DisplayNameDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DisabledIfSystemPropertyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.common.*" />
+          <option name="PATTERN" value="com.test.disableenabletests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.test.common" />
-      <option name="MAIN_CLASS_NAME" value="com.test.common.DisplayNameDemo" />
+      <option name="PACKAGE_NAME" value="com.test.disableenabletests" />
+      <option name="MAIN_CLASS_NAME" value="com.test.disableenabletests.DisabledIfSystemPropertyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DisabledMethodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.disableenabletests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.disableenabletests" />
+      <option name="MAIN_CLASS_NAME" value="com.test.disableenabletests.DisabledMethodTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DisabledIfSystemPropertyTest" />
+        <item itemvalue="JUnit.DisabledMethodTest" />
         <item itemvalue="JUnit.AssumingThatDemo" />
         <item itemvalue="JUnit.AssumeFalseDemo" />
         <item itemvalue="JUnit.AssumeTrueDemo" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="JUnit.DisplayNameDemo" />
       </list>
     </recent_temporary>
   </component>
